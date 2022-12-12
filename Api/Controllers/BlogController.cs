@@ -30,5 +30,7 @@ namespace Api.Controllers
             var result = await _mediator.Send(new GetPostRequest(id));
             return Ok(result);
         }
+
+
     }
 }
